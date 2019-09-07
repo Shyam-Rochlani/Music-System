@@ -1,0 +1,142 @@
+<!Doctype html>
+<html>
+<style>
+    
+body {
+        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(subbackimg.JPG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100%;
+    }
+    
+.btn-group button {
+ 
+    margin-left: 680px;
+    background-color: #2D70D2; /
+    border: none; 
+    color: white; /* White text */
+    width:600px;
+    height:50px;
+    cursor: pointer; /* Pointer/hand icon */
+    display: block; /* Make the buttons appear below each other */
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+    
+    .btn-group {
+           margin-top: 4%;
+    }
+
+.btn-group button {
+    border-bottom: none; /* Prevent double borders */
+    border: none;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: black;
+}
+    
+    .text {
+        font-family: 'Monotype Corsiva';
+        text-align: center;
+        color: antiquewhite;
+        margin-top: 130px;
+        font-size: 38px;
+    }
+    
+    /* The Modal (background) */
+    .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+    /* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+    
+    /* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+<body>
+
+<div class="text">
+    Select the Offer you want to Subscribe:
+</div>
+
+<div id="myBtn" class="btn-group">
+  <button>Rs. 99 per month</button> <br>
+  <button>Rs. 299 for 6 months</button> <br>
+  <button>Rs. 499 per annum</button>
+</div>
+
+<div id="myModal" class="modal">
+   <div class="modal-content">
+      <span class="close">&times;</span>
+       <h1>Payment Successful!</h1>
+       <h4>Enjoy Unlimited Songs<br>High Quality Audio</h4>
+       <h3>Thank you for Subscribing us!</h3>
+   </div>
+    
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>

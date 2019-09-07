@@ -1,0 +1,403 @@
+/*=============================================================================================
+            PROJECT NAME : MUSIC BY MOOD
+
+            DEFAULT  VALUES
+        
+            FONT :
+            ROBOTO
+            COLOR:
+        
+
+==============================================================================================*/
+html,body{
+    height: 100%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+/***********************************************************************************************
+            LOGIN PAGE 
+***********************************************************************************************/
+
+/*body{*/
+    
+/*    background: rgba(0, 128, 128, 0.9);*/
+/*
+}
+.login-form{
+    height: 420px;
+    width: 320px;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.user{
+    height: 100px;
+    width: 100px;
+    top: -50px;
+    left: 100px;
+    position: absolute;
+    border-radius: 50%;
+    
+}
+.login-box{
+    margin: 50p x 20px 20px;
+    color: #fff;
+    font-size: 20px;
+}
+.login-box input{
+    width: 100%;
+    color: #999;
+    background: #eee;
+    margin: 10px 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 5px;
+    border-bottom: solid 5px #000;
+}
+.login-button{
+    border-radius: 10px;
+    background: #666;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+}
+.login-button a{
+    text-decoration: none;
+    color: #eee;
+}
+.login-other{
+    margin: 10px;
+}
+.login-other a{
+    text-decoration: none;
+    text-align: center;
+    color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+*/
+/***********************************************************************************************
+            BOOSTRAP CSS  
+***********************************************************************************************/
+.navbar{
+    margin-bottom: 0px;
+    color: #fff;
+}
+.nav-side-btn{
+    padding: 10px;
+    margin-right: 12px;
+    margin-left: 15px;
+}
+.nav-side-btn>a{
+    color: #fff;
+}
+.my-navbar{
+    background: #151729;
+    margin-bottom: 0;
+}
+.my-navbar:after{
+  
+    margin-bottom: 0;
+}
+.my-navbar .my-links>li>a{
+    display: inline-block;
+}
+.my-navbar .my-links>li>a{
+    color: #fff;
+    font-size: 18px;
+    font-style: 'Roboto',sans-serif;
+}
+.my-nav-btn>a{
+    margin: 50px 20px 20px 20px ;
+    color: #f6f6f6;
+}
+
+
+
+
+/********************************************************************************************************
+                            QUEUE SIDEBAR 
+********************************************************************************************************/
+
+
+nav.queue-header{
+    
+    width: 100px;
+    background: #aaa;
+    height: 100%;
+/*    margin-right: 10px ;*/
+    padding: 10px;
+
+}
+.queue-header h1{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-style: 'Roboto',sans-serif;
+}
+.queue-header:hover{
+    height: 100%;
+    background: #aaa;
+    color: #444;
+    width: 260px;
+/*    display: block;*/
+/*
+    position: absolute;
+    z-index: 3;
+*/
+/*    padding: 25px 20px 40px auto;*/
+/*    animation: animateleft;*/
+
+}
+
+.list-btn{
+    margin: 10px 10px 20px 50px;
+}
+.sidebar-queue{
+
+
+    top:50px;
+    width: 8%;
+    height: 100%;
+    background: #fff;
+    color: #272c55;
+    padding: 70px 20px 20px;
+    margin: 0;
+    display: inline-block;
+    position: fixed;
+   z-index: 1;
+    border-right: solid 1px #555;
+/*    overflow-y: scroll;*/
+}
+
+.sidebar-queue:hover{
+    
+    margin: 0;
+    width: 20%;
+    height: 100%;
+    color: #222;
+    background: #ccc;
+    display: inline-block;
+    border-right: solid 1px #555;
+    overflow-y: scroll;
+}
+.queue-song-list{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+.queue-img img{
+    height: 70px;
+    width:70px;
+    border: solid 1px #eee;
+    border-radius: 2px;
+}
+
+
+.queue-song-singer{
+ display: none;
+ padding: 5px;
+/* text-align: left;*/
+ font-size: 15px;
+ color: #222; 
+    font-style: 'Roboto',sans-serif;
+}
+
+/*
+.queue-song-singer :hover{
+ display: block;
+}
+*/
+
+.queue-row{
+    padding: 5px;
+}
+/************************************************************************************************
+                            PLAYLIST SIDEBAR 
+*************************************************************************************************/
+
+
+
+.playlist-song-list{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+.playlist-img img{
+    height: 100px;
+    width:100px;
+    border: solid 1px #eee;
+    border-radius: 2px;
+}
+
+
+.playlist-song-singer{
+ display: block;
+/* padding: 5px;*/
+/* text-align: left;*/
+ font-size: 15px;
+ color: #222; 
+ font-style: 'Roboto',sans-serif;
+}
+
+/*
+.queue-song-singer :hover{
+ display: block;
+}
+*/
+
+.playlist-row{
+    padding: 5px;
+}
+/*******************************************************************************************************
+                                MAIN SONG SECTION
+*****************************************************************************************************/
+.song-carousel{
+    margin-left: 10px;
+    margin-top: 120px;
+}
+.carousel-img{
+    width: 100%;
+    height: 500px;
+}
+.carousel-img img {
+    width: 100%;
+    height: 600px;
+}
+.song-body{
+    margin-top: 20px;
+}
+.header{
+    margin-top: 20px;
+}
+.new-category{
+    margin: 20px 0;
+}
+.song-img img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+.song-name{
+    padding: 8px 8px 0  0;
+    font-size: 15px;
+    font-family: 'Roboto' , sans-serif;
+    color: #333;
+    text-align: center;
+}
+.song{
+    padding: 5px;
+    background: #ccc;
+    height: 270px;
+    width: 210px;
+    margin-bottom: 70px;
+    border-radius: 5px;
+    display: inline;
+}
+.song-genre{
+    padding: 5px;
+    background: #ccc;
+    height: 240px;
+    width: 350px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.song-genre:hover{
+    text-decoration: none;
+}
+.genre-name{
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    padding: 2px;
+    color: #000;
+}
+.genre-name:hover{
+    text-decoration:none;
+    color: #000;
+}
+.genre-img img{
+    padding: 5px;
+    height: 200px;
+    width: 340px;
+    border-radius: 5px;
+}
+.audios{
+    width: 210px;
+    border-radius: 0;
+    
+}
+.audio{
+    width: 210px;
+    margin: 60px 0 70px 0;
+    padding-bottom: 70px;
+    
+}
+.song-player{
+    width: 200px;
+    margin-top: 1px;
+}
+.like{
+    text-decoration: none;
+/*    display: inline-block;*/
+}
+.options li{
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    font-size: 18px;
+}
+.add-queue{
+    margin-left: 70px;
+    color: #333;
+}
+.add-queue:hover{
+    font-size: 20px;
+    color:  #563e7d ;
+}
+
+.like{
+    font-size: 20px;
+    color: #ad060c;
+}
+/*************************************************************************************************
+                                    FOOTER
+****************************************************************************************************/
+.page-footer{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+    color: #555;
+    font-size: 12px;
+}
+/******************************************************************************************************
+                                    DISCOVER PAGE
+*******************************************************************************************************/
+
+.discover-genres{
+    margin-left: 10px;
+    margin-top: 150px;
+}
+
+/************************************************************************************************
+                                    INNER GENRE
+*****************************************************************************************************/
+.inner-genre-imgs img{
+    width: 100%;
+    height: 550px;
+    
+}
+.inner-genre-body{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+td .name{
+    font-weight: 600;
+    color: black;
+}

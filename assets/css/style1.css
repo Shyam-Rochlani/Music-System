@@ -1,0 +1,46 @@
+body{
+    margin:0;
+    padding:0px;
+    background: #37ABED;
+    
+}
+section{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height:500px;
+    width:1200px;
+    background: #fff;
+    box-shadow:0 25px 30px rgba(0,0,0,0.5);
+    display: flex;
+}
+.content{
+    width:calc(35% - 50px);
+    height:100%;
+    background: #fff;
+    box-sizing: border-box;
+    padding:5%;  
+}
+
+.login-text{
+    font-size:2em;
+    font-family:"roboto";
+    font-weight: bold;
+    margin-top:2%;
+}
+.more{
+    margin-top:15px;
+}
+.less{
+    margin-top:-10px;
+}
+.box{
+    margin-left:70%;
+    margin-top:5%;
+    position: absolute;
+    background: white;
+    height:50px;
+    width:240px;
+    box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75); 
+}

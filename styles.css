@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0px;
+}
+.play-music:hover{
+    cursor: pointer;   
+}
+
+.music-div:hover{
+    cursor: pointer;
+    
+}
+.like-btn{
+    height: 50px;
+    width: 50px;
+}
+.add-que{
+    width: 100px;
+    height: 50px;
+}
+.song-player{
+    width: 200px;
+    margin-top: 1px;
+}
+.song-name{
+    color: dimgray;
+    margin-top: -1px;
+    background: #F4F4EE;
+}
+fa{
+    width: 50px;
+   font-size: 50px;
+    color: white;
+    background-color: gray;
+}
+button{
+    width: 150px;
+    height: 25px;
+    margin-top: -20px;
+}
+.audio-tag-div{
+    background-color: #F1F3F4;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+   margin-left:122px;
+}
+.audio-tag{
+    width: 100%;
+}
+.music-container{
+/*    width: 100%;*/
+   margin-left: 180px;
+   margin-right: 150px;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+.clearfix {
+    display: block;
+}
